@@ -62,3 +62,8 @@ button {
     transition: 200px transform;
     font-weight: 600;
 }
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
