@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: #2d414b;
+    box-sizing: border-box;
 }
 
 :root {
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    font-size: 4px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
