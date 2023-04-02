@@ -22,7 +22,7 @@ function boxClicked(e) {
             playerText = '$(currentPlayer) has won!'
             let winning_blocks = playerHasWon()
 
-            winning_blocks.map(box => boxes[box].style.backgrounColour = winnerIndicator)
+            winning_blocks.map(box => boxes[box].style.backGrounColour = winnerIndicator)
             return
         }
 
@@ -57,7 +57,7 @@ function restart() {
 
     boxes.forEach(box => {
         box.innerText = ''
-        box.style.backgrounColor = ''
+        box.style.backGrounColor = ''
     })
     currentPlayer = x_TEXT
 }
