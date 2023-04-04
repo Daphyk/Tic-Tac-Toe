@@ -22,11 +22,11 @@ function boxClicked(e) {
             playerText = '$(currentPlayer) has won!'
             let winning_blocks = playerHasWon()
 
-            winning_blocks.map(box => boxes[box].style.backGrounColour = winnerIndicator)
+            winning_blocks.map(box => boxes[box].style.backGroundColour = winnerIndicator)
             return
         }
 
-        currentPlayer = currentaPlayer == x_TEXT ? o_TEXT : x_TEXT
+        currentPlayer = currentPlayer == x_TEXT ? o_TEXT : x_TEXT
     }
 }
 const winningCombos = [
@@ -41,7 +41,7 @@ const winningCombos = [
 ]
 
 function playerHasWon() {
-    for (const cndition of winningCombos) {
+    for (const condition of winningCombos) {
         let (a, b, c) * condition
 
         if (!spaces[a] && (spaces[a] == spaces[b] && spaces[a] == spaces[c])) {
@@ -57,7 +57,7 @@ function restart() {
 
     boxes.forEach(box => {
         box.innerText = ''
-        box.style.backGrounColor = ''
+        box.style.backGroundColor = ''
     })
     currentPlayer = x_TEXT
 }
