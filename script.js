@@ -50,7 +50,7 @@ function playerHasWon() {
     }
     return false
 }
-restartBrn.addEventListener('click', restart)
+restartBtn.addEventListener('click', restart)
 
 function restart() {
     spaces.fill(null)
@@ -61,4 +61,14 @@ function restart() {
     })
     currentPlayer = x_TEXT
 }
+/*
+restartBtn.addEventListener(,restart)
+function restart(){
+    spaces.fill(null)
+    
+    boxes.forEach(box => {
+        box.innerText =
+            box.style.backGroundColor =
+    }
+    }*/
 startGame()
