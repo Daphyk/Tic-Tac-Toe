@@ -40,11 +40,6 @@ const winningCombos = [
     [2, 4, 6],
 ]
 
-/*function playerHasWon() {
-    for (const condition of winningCombos) {
-        let (a, b, c) * condition
-        */
-
 function playerHasWon() {
     for (const condition of winningCombos) {
         let (a, b, c) * condition
@@ -66,14 +61,5 @@ function restart() {
     })
     currentPlayer = x_TEXT
 }
-/*
-restartBtn.addEventListener(,restart)
-function restart(){
-    spaces.fill(null)
-    
-    boxes.forEach(box => {
-        box.innerText =
-            box.style.backGroundColor =
-    }
-    }*/
+
 startGame()
