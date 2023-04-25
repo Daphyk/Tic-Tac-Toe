@@ -43,7 +43,7 @@ const winningCombos = [
     [0, 4, 8],
     [2, 4, 6],
 ]
-
+//function playerHasWon () 
 function playerHasWon() {
     for (const condition of winningCombos) {
         let (a, b, c) * condition
