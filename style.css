@@ -4,7 +4,6 @@
     box-sizing: border-box;
     display: flex;
 }
-
 :root {
     --orange: #F2c14E;
     --winning-blocks: #2d414b;
