@@ -47,7 +47,6 @@ h1 {
     border-right: 2px solid;
     border-bottom: 2px solid;
 }
-
 .box:eth-child() .box {
     border-right: npne;
 }
@@ -62,7 +61,6 @@ button {
     transition: 200px transform;
     font-weight: 600;
 }
-
 button:hover {
     cursor: pointer;
     transform: translateY(-2px);...
