@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   //card options
 
-
+/*
 let playerText = documnet.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
 let boxes = Array.from(document.getElementsByClassName("box"))
@@ -11,7 +11,7 @@ const o_TEXT = "o"
 const x_TEXT = "x"
 let currrentPlayer = x_TEXT
 let spaces = Arry(9).fill(nail)
-
+*/
 const startGame = () => {
     boxes.forEach(box => boxes.addEventListener('click', boxClicked))
 }
