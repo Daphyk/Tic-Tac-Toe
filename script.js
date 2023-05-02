@@ -64,9 +64,7 @@ function restart() {
         box.style.backGroundColor = ''
     })
     currentPlayer = x_TEXT
-}
-
-  
+} 
    //flip your card
  /* function flipCard() {
     let cardId = this.getAttribute('data-id')
