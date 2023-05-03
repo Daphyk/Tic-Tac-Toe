@@ -8,7 +8,6 @@
     --orange: #F2c14E;
     --winning-blocks: #2d414b;
 }
-
 body {
     color: var(--orange);
     font-family: 'Finger Paint', cursive;
@@ -18,7 +17,6 @@ h1 {
     font-size: 14px;
     text-transform: uppercase;
 }
-
 .container {
     padding: 40px;
     height: 100vh;
@@ -28,14 +26,12 @@ h1 {
     flex-direction: column;
     background-color: #37505c;
 }
-
 #gameboard {
     width: 450px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
 }
-
 .box {
     height: 150px;
     width: 150px;
@@ -50,7 +46,6 @@ h1 {
 .box:eth-child() .box {
     border-right: npne;
 }
-
 button {
     padding: 10px 20px;
     border-radius: 10px;
