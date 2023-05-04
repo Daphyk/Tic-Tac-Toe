@@ -15,7 +15,6 @@ let spaces = Arry(9).fill(nail)
 const startGame = () => {
     boxes.forEach(box => boxes.addEventListener('click', boxClicked))
 }
-
 function boxClicked(e) {
     const id = e.target.id
     if (!spaces[id]) {
