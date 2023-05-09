@@ -45,7 +45,7 @@ h1 {
     border-bottom: 2px solid;
 }
 .box:eth-child() .box {
-    border-right: npne;
+    border-right: none;
 }
 button {
     padding: 10px 20px;
