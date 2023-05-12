@@ -55,7 +55,6 @@ restartBtn.addEventListener('click', restart)
 
 function restart() {
     spaces.fill(null)
-
     boxes.forEach(box => {
         box.innerText = ''
         box.style.backGroundColor = ''
