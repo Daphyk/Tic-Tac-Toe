@@ -74,3 +74,7 @@ function restart() {
 */
  // createBoard()
 startGame()
+
+  
+  
+  
