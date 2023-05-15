@@ -26,7 +26,6 @@ function boxClicked(e) {
             winning_blocks.map(box => boxes[box].style.backGroundColour = winnerIndicator)
             return
         }
-
         currentPlayer = currentPlayer == x_TEXT ? o_TEXT : x_TEXT
     }
 }
@@ -52,7 +51,6 @@ function playerHasWon() {
     return false
 }
 restartBtn.addEventListener('click', restart)
-
 function restart() {
     spaces.fill(null)
     boxes.forEach(box => {
@@ -61,6 +59,7 @@ function restart() {
     })
     currentPlayer = x_TEXT
 } 
+  
    //flip your card
  /* function flipCard() {
     let cardId = this.getAttribute('data-id')
@@ -74,7 +73,3 @@ function restart() {
 */
  // createBoard()
 startGame()
-
-  
-  
-  
