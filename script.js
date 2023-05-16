@@ -72,4 +72,5 @@ function restart() {
   }
 */
  // createBoard()
-startGame()
+startGame() 
+  Kendi 
