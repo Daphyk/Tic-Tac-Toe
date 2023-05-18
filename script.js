@@ -28,7 +28,7 @@ function boxClicked(e) {
         }
         currentPlayer = currentPlayer == x_TEXT ? o_TEXT : x_TEXT
     }
-}
+}hffk 
 const winningCombos = [
     [0, 1, 2],
     [3, 4, 5],
@@ -77,3 +77,4 @@ function restart() {
  // createBoard()
 startGame() 
   Kendi 
+  Dee
