@@ -51,8 +51,6 @@ function playerHasWon() {
     return false
 }
   
-  
-  
 restartBtn.addEventListener('click', restart)
 function restart() {
     spaces.fill(null)
