@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  //card options
+ // card doc
 /*
 let playerText = documnet.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
