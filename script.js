@@ -58,6 +58,7 @@ function restart() {
         box.style.backGroundColor = ''
     })
     currentPlayer = x_TEXT
+ CHCCH HHt
 } 
    //flip your card
  /* function flipCard() {
