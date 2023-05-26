@@ -1,5 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
  // card doc
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lete sjs x 
 let playerText = documnet.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
 let boxes = Array.from(document.getElementsByClassName("box");
