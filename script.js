@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
  
  
- 
+ kjj ujuh ih 
  lete sjs x 
 let playerText = documnet.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
