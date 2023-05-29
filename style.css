@@ -5,7 +5,10 @@
     display: flex;
 }
 :root {
-    --orange: #F2c14E;
+    --orange: #F2c
+        
+        
+        14E;
     --winning-blocks: #2d414b;
 }
 body {
