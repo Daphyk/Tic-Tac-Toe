@@ -1,19 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
  // card doc
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- kjj ujuh ih 
- lete sjs x 
 let playerText = documnet.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
 let boxes = Array.from(document.getElementsByClassName("box");
@@ -32,8 +18,8 @@ function boxClicked(e) {
         spaces[id] = currentPlayer
         e.target.innerText = currentPlayer
 
-        if (playerHasWon() !== false) {
-            playerText = '$(currentPlayer) has won!'
+         if (playerHasWon() !== false) {
+          playerText ='$(currentPlater) has won!'
             let winning_blocks = playerHasWon()
 
             winning_blocks.map(box => boxes[box].style.backGroundColour = winnerIndicator)
