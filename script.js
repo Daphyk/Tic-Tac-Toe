@@ -63,6 +63,8 @@ function restart() {
     currentPlayer = x_TEXT
  CHCCH HHt
 } 
+ 
+ 
    //flip your card
  /* function flipCard() {
     let cardId = this.getAttribute('data-id')
