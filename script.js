@@ -80,6 +80,10 @@ function restart() {
 */
  hzbz the facts 
  // createBoard()
+ 
+ 
+ 
+ 
 startGame() 
   Kendi 
   Dee
