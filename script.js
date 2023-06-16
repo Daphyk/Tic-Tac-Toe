@@ -6,6 +6,8 @@ let boxes = Array.from(document.getElementsByClassName("box");
 let winnerIndicator = getComputeredStyle(document.body).getPropertyValue('--winning-blocks')
 const o_TEXT = "o"
 const x_TEXT = "x"
+
+ 
 let currrentPlayer = x_TEXT
 let spaces = Arry(9).fill(nail)
 */
