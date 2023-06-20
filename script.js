@@ -25,7 +25,7 @@ const startGame = () => {
 function boxClicked(e) {
     const id = e.target.id
     if (!spaces[id]) {
-        spaces[id] = currentPlayer
+        spaces[id] = current player
         e.target.innerText = currentPlayer
 
          if (playerHasWon() !== false) {
