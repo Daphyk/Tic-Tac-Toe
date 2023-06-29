@@ -68,7 +68,7 @@ function restart() {
  
  
     spaces.fill(null)
-    boxes.forEach(box => {
+    boxes.forEach(box => {nc
         box.innerText = ''
         box.style.backGroundColor = ''
     })
