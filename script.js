@@ -39,6 +39,8 @@ function boxClicked(e) {
             winning_blocks.map(box => boxes[box].style.backGroundColour = winnerIndicator)
             return
         }
+
+ jjz
         currentPlayer = currentPlayer == x_TEXT ? o_TEXT : x_TEXT
     }
  
