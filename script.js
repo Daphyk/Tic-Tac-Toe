@@ -33,6 +33,8 @@ function boxClicked(e) {
         e.target.innerText = currentPlayer
 
          if (playerHasWon() !== false) {
+
+          
           playerText ='$(currentPlater) has won!'
             let winning_blocks = playerHasWon()
 
